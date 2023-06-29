@@ -4,9 +4,8 @@
   "license": "MIT",
   "main": "lodash.js",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10"
   },
-  "sideEffects": false,
   "scripts": {
     "style": "eslint *.js .internal/**/*.js",
     "test": "mocha -r esm test/*.test.js",
