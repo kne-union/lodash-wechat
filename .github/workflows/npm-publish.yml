@@ -18,10 +18,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm i --legacy-peer-deps
-      - run: npm run build:lib
-      - run: cp package.json ./dist
-      - run: cd ./dist && npm publish --access=public
+      - run: npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.KNE_PACKAGE_PUBLISH}}
       - run: npm i -g cnpm
