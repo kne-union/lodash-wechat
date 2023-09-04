@@ -1,8 +1,8 @@
 {
   "name": "@kne/lodash-wechat",
-  "version": "4.17.21-alpha.1",
+  "version": "4.17.21",
   "description": "Lodash exported as ES modules.",
-  "keywords": "es6, modules, stdlib, util",
+  "keywords": "es6, modules, stdlib, util, wechat",
   "homepage": "https://lodash.com/custom-builds",
   "bugs": "https://github.com/lodash/lodash-cli/issues",
   "repository": "lodash/lodash",
